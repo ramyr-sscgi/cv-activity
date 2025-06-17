@@ -9,12 +9,12 @@
 }
 
 .hero-heading {
-  font-size: 6.2rem;
+  font-size: 5.2rem;
   letter-spacing: -0.5px;
 }
 
 .hero-subheading {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 .hero-btn-cont {
@@ -46,11 +46,13 @@
 }
 
 .about-card-img {
+  height: 21.7rem !important;
+
   opacity: 0.8;
-  overflow-y: hidden;
   object-fit: cover;
   object-position: center;
-  max-height: 23rem;
+
+  overflow-y: hidden;
 }
 
 .misc-card-body {
@@ -59,7 +61,7 @@
 
 .misc-card-title {
   margin-top: 1.2rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .misc-card-description {
@@ -73,7 +75,12 @@
 
 .modal-card-btn {
   justify-self: flex-end !important;
-  margin: 0 1.2rem 1.2rem;
+  margin: 0 1.2rem 1.8rem;
+}
+
+/****** Project Section ******/
+.project-section {
+  margin: 9.6rem 0 4.8rem;
 }
 
 /* 
