@@ -1,0 +1,139 @@
+/****** Hero Section ******/
+.hero-section {
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  margin: 4.8rem 0;
+}
+
+.ramyr-img {
+  height: 44rem;
+}
+
+.hero-heading {
+  font-size: 6.2rem;
+  letter-spacing: -0.5px;
+}
+
+.hero-subheading {
+  font-size: 2.4rem;
+}
+
+.hero-btn-cont {
+  margin-top: 1.2rem;
+}
+
+/****** About Me Section ******/
+.about-section {
+  margin: 9.6rem 0 4.8rem;
+}
+
+.about-content {
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.about-me-img {
+  width: 32rem;
+  opacity: 0.75;
+}
+
+/****** About Me Section - Misc ******/
+.misc-about-section {
+  margin: 9.6rem 0 4.8rem;
+}
+
+.misc-about-card {
+  width: 32rem;
+  min-height: 52rem;
+}
+
+.misc-card-body {
+  margin: 0 0.8rem;
+}
+
+.misc-card-title {
+  margin-top: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+.misc-card-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.misc-about-card button {
+  margin-top: 1.2rem;
+}
+
+.modal-card-btn {
+  justify-self: flex-end !important;
+  margin: 0 1.2rem 1.2rem;
+}
+
+/* 
+--- 01 Typography System
+
+    - Font Syze System (px)
+        10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+    - Font Weights: 
+        Default: 400
+        Medium: 500
+        Semi-bold: 600
+        Bold: 700
+
+    - Line Heights:
+        Default: 1
+        Small: 1.05
+        Medium: 1.2
+        Paragraph default: 1.6
+        Large: 1.8
+
+    - Letter Spacing:
+        0.5px
+        0.75px
+
+    --- 02 Colours
+
+    - Primary: #a5a58d (Call-to-action BG and Button Colours)
+    - Secondary: #d1e0e5
+    - Tints:
+        #edede8
+        #dbdbd1
+
+    - Shades: 
+        #898e7c
+        #10100e
+
+    - Greys: 
+        ##ccc (inactive button font color)
+
+        #555 
+
+        #777
+        #888
+        #767676 (lightest grade allowed for white)
+
+        #4a4a4a (illustration border)
+
+        ##333 (Section Hero Text Colour)
+        #e5e5e5 (Section Hero Background)
+
+        - Illustration:
+
+        - Others:
+            #f6f6f4 (Inactive button)
+            #f4e3d7
+            #b3c6d1
+    --- 05 Shadows
+
+    --- 06 Border Radius
+        Default: 9px
+        Medium: 11px
+
+
+    --- 07 Whitespace
+
+    - SPACING SYSTEM (px)
+        2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/

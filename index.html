@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="gen-container">
+          <div class="row d-flex">
+            <div
+              class="col-md-6 d-flex justify-content-center align-items-center"
+            >
+              <img class="ramyr-img" src="/img/Ramyr.webp" alt="Ramyr avatar" />
+            </div>
+            <div
+              class="col-md-6 d-flex gap-3 flex-column justify-content-center align-items-start"
+            >
+              `
+              <h1 class="fw-bold hero-heading">Hello, I'm Ramyr!</h1>
+              <h2 class="hero-subheading mb-3">
+                SYSTEM AND WEB DEVELOPER | DEVOPS
+              </h2>
+              <div class="hero-btn-cont">
+                <a class="gen-btn btn btn-primary me-4" href="#" rel="button"
+                  >Contact Me</a
+                >
+                <a class="gen-btn btn btn-secondary" href="#">View Projects</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section class="about-section">
+        <div class="gen-container">
+          <span class="subheading text-uppercase">Meet Ramyr</span>
+          <div class="mt-4">
+            <h2 class="heading-secondary text-capitalize fw-bold">
+              a glimpse about me
+            </h2>
+            <div class="row d-flex gap-5">
+              <div
+                class="col-lg-7 order-lg-1 order-2 about-content d-flex flex-column gap-3"
+              >
+                <p>
+                  I'm a system developer at SSCGI with a foundation in
+                  mechanical engineering and over nine years of experience in
+                  design, project management, and creative problem-solving. With
+                  hands-on training and dedication, I've transitioned into
+                  crafting dynamic system and web solutions that align with
+                  real-world needs.
+                </p>
+                <p>
+                  My passion for development traces back to a childhood dream of
+                  learning programming—driven by curiosity and a love for
+                  building things that matter. Today, I focus on creating
+                  scalable, responsive, and user-friendly applications designed
+                  to deliver meaningful digital experiences.
+                </p>
+              </div>
+              <div
+                class="col-lg-4 order-1 order-lg-2 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  class="about-me-img"
+                  src="/img/about/about-me-dev-illustration.svg"
+                  alt="introduction illustration &mdash; greeting image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section - Misc -->
+      <section class="misc-about-section">
+        <div class="gen-container">
+          <span class="subheading text-uppercase text-center"
+            >Get to know Ramyr deeper</span
+          >
+          <div class="mt-4">
+            <h2 class="heading-secondary text-capitalize text-center fw-bold">
+              My Roots & Rhythms
+            </h2>
+            <div class="row">
+              <!-- Photography -->
+              <div class="col-lg-3 offset-lg-0 col-md-8 offset-2">
+                <div class="card misc-about-card">
+                  <img
+                    class="card-img-top about-card-img"
+                    src="/img/gallery/hobbies/photography-cover.webp"
+                    alt="Card image - Camera"
+                  />
+                  <div
+                    class="card-body misc-card-body d-flex flex-column gap-3"
+                  >
+                    <h3
+                      class="card-title misc-card-title heading-tertiary fw-bold"
+                    >
+                      Photography
+                    </h3>
+                    <p class="card-text misc-card-description">
+                      Capturing quiet moments, bold contrasts, and everyday
+                      beauty through the lens&ndash;photography is how I slow
+                      down and see the world differently.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="gen-btn modal-card-btn btn btn-primary text-capitalize fw-semibold"
+                    data-bs-toggle="modal"
+                    data-bs-target="#photographyModal"
+                  >
+                    Wander through my lens
+                  </button>
+                </div>
+              </div>
+
+              <!-- Mechanical Engineer -->
+              <div class="col-lg-3 offset-lg-1 col-sm-8 offset-2">
+                <div class="card misc-about-card">
+                  <img
+                    class="card-img-top about-card-img"
+                    src="/img/gallery/engineering/engineerng-card-cover.webp"
+                    alt="Card image - Autocad Design"
+                  />
+                  <div
+                    class="card-body misc-card-body d-flex flex-column gap-3"
+                  >
+                    <h3
+                      class="card-title misc-card-title heading-tertiary fw-bold"
+                    >
+                      Engineering in Action
+                    </h3>
+                    <p class="card-text misc-card-description">
+                      Nine years of engineering: ideas built, problems solved,
+                      and systems that last.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="gen-btn modal-card-btn btn btn-primary text-capitalize fw-semibold"
+                    data-bs-toggle="modal"
+                    data-bs-target="#photographyModal"
+                  >
+                    Let the projects speak
+                  </button>
+                </div>
+              </div>
+
+              <!-- My Cats -->
+              <div class="col-lg-3 offset-lg-1 col-sm-8 offset-2">
+                <div class="card misc-about-card">
+                  <img
+                    class="card-img-top about-card-img"
+                    src="/img/gallery/engineering/engineerng-card-cover.webp"
+                    alt="Card image - Autocad Design"
+                  />
+                  <div
+                    class="card-body misc-card-body d-flex flex-column gap-3"
+                  >
+                    <h3
+                      class="card-title misc-card-title heading-tertiary fw-bold"
+                    >
+                      Life with Whiskers
+                    </h3>
+                    <p class="card-text misc-card-description">
+                      No design or coding challenge compares to feeding
+                      schedules and zoomies at 3AM. Here’s to the cats who run
+                      the real show.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="gen-btn modal-card-btn btn btn-primary text-capitalize fw-semibold"
+                    data-bs-toggle="modal"
+                    data-bs-target="#photographyModal"
+                  >
+                    Meet the real boss
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------- -->
+        <!-- Carousel Modal -->
+
+        <!-- Photography -->
+        <div
+          class="modal fade"
+          id="photographyModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="photographyModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="custom-modal-size modal-dialog modal-fullscreen-sm-down"
+            role="document"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title heading-tertiary"
+                  id="photographyModalLabel"
+                >
+                  Photography
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div
+                  id="carouselPhotographyHobby"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotographyHobby"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotographyHobby"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotographyHobby"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotographyHobby"
+                      data-bs-slide-to="3"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotographyHobby"
+                      data-bs-slide-to="4"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotographyHobby"
+                      data-bs-slide-to="5"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div>
+                        <img
+                          src="/img/gallery/hobbies/photography-2.webp"
+                          class="d-block w-100"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Framed in Silence</h3>
+                        <p class="carousel-description">
+                          Rain on the windshield blurs the city beyond, while a
+                          quiet pair of glasses rests center frame—caught
+                          between clarity and contemplation.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/hobbies/photography-3.webp"
+                        class="d-block w-100"
+                        alt="Third slide"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Dorm Life in Color</h3>
+                        <p class="carousel-description">
+                          A modern student dorm in Aljada, Sharjah &ndash; lined
+                          with soft hues and symmetry, right outside my window.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/hobbies/photography-4.webp"
+                        class="d-block w-100"
+                        alt="Fourth slide"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Qasr Al Watan</h3>
+                        <p class="carousel-description">
+                          The Presidential Palace in Abu Dhabi &ndash; ornate
+                          domes, grand arches, and a courtyard that reflects the
+                          UAE’s cultural pride and architectural grace.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/hobbies/photography-5.webp"
+                        class="d-block w-100"
+                        alt="Fifth slide"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Skyline Majesty</h3>
+                        <p class="carousel-description">
+                          Dubai’s iconic skyline with the Burj Khalifa at its
+                          heart&ndash;framed by glass, steel, and a touch of
+                          green in a city that never stops reaching upward.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/hobbies/photography-6.webp"
+                        class="d-block w-100"
+                        alt="Sixth slide"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">
+                          Creative Mind in Motion”
+                        </h3>
+                        <p class="carousel-description">
+                          Russia’s Expo 2020 pavilion—vibrant, spherical, and
+                          dynamic&ndash;symbolizes movement, innovation, and the
+                          boundless energy of human thought.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/hobbies/photography-7.webp"
+                        class="d-block w-100"
+                        alt="Seventh slide"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Faith in Harmony”</h3>
+                        <p class="carousel-description">
+                          A map from the Abrahamic Family House in Abu Dhabi,
+                          where a mosque, church, and synagogue stand side by
+                          side&ndash;symbolizing unity across belief.
+                        </p>
+                      </div> -->
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselPhotographyHobby"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselPhotographyHobby"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="gen-btn btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

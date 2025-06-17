@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "bootstrap-sass": "^3.4.3"
+  },
+  "name": "cv-activity",
+  "version": "1.0.0",
+  "description": "cv project for bootcampers",
+  "main": "index.js",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.3.6",
+    "sass": "^1.62.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:build": "npx sass --no-source-map scss:css",
+    "sass:watch": "npx sass --no-source-map --watch scss:css"
+  },
+  "author": "Ramyr Garceniego",
+  "license": "MIT"
+}
