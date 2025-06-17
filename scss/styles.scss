@@ -42,8 +42,15 @@
 }
 
 .misc-about-card {
-  width: 32rem;
-  min-height: 52rem;
+  width: 36rem;
+}
+
+.about-card-img {
+  opacity: 0.8;
+  overflow-y: hidden;
+  object-fit: cover;
+  object-position: center;
+  max-height: 23rem;
 }
 
 .misc-card-body {

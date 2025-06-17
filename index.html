@@ -104,10 +104,12 @@
             <h2 class="heading-secondary text-capitalize text-center fw-bold">
               My Roots & Rhythms
             </h2>
-            <div class="row">
+            <div
+              class="d-flex gap-5 justify-content-between align-items-center"
+            >
               <!-- Photography -->
-              <div class="col-lg-3 offset-lg-0 col-md-8 offset-2">
-                <div class="card misc-about-card">
+              <div class="misc-about-card">
+                <div class="card" style="height: 52rem">
                   <img
                     class="card-img-top about-card-img"
                     src="/img/gallery/hobbies/photography-cover.webp"
@@ -133,14 +135,14 @@
                     data-bs-toggle="modal"
                     data-bs-target="#photographyModal"
                   >
-                    Wander through my lens
+                    Peek through my lens
                   </button>
                 </div>
               </div>
 
               <!-- Mechanical Engineer -->
-              <div class="col-lg-3 offset-lg-1 col-sm-8 offset-2">
-                <div class="card misc-about-card">
+              <div class="misc-about-card">
+                <div class="card" style="height: 52rem">
                   <img
                     class="card-img-top about-card-img"
                     src="/img/gallery/engineering/engineerng-card-cover.webp"
@@ -152,7 +154,7 @@
                     <h3
                       class="card-title misc-card-title heading-tertiary fw-bold"
                     >
-                      Engineering in Action
+                      Engineer in Action
                     </h3>
                     <p class="card-text misc-card-description">
                       Nine years of engineering: ideas built, problems solved,
@@ -163,7 +165,7 @@
                     type="button"
                     class="gen-btn modal-card-btn btn btn-primary text-capitalize fw-semibold"
                     data-bs-toggle="modal"
-                    data-bs-target="#photographyModal"
+                    data-bs-target="#engineeringModal"
                   >
                     Let the projects speak
                   </button>
@@ -171,12 +173,12 @@
               </div>
 
               <!-- My Cats -->
-              <div class="col-lg-3 offset-lg-1 col-sm-8 offset-2">
-                <div class="card misc-about-card">
+              <div class="misc-about-card">
+                <div class="card" style="height: 52rem">
                   <img
                     class="card-img-top about-card-img"
-                    src="/img/gallery/engineering/engineerng-card-cover.webp"
-                    alt="Card image - Autocad Design"
+                    src="/img/gallery/cats/ket-cover.webp"
+                    alt="Card image - Hapi Cover"
                   />
                   <div
                     class="card-body misc-card-body d-flex flex-column gap-3"
@@ -196,7 +198,7 @@
                     type="button"
                     class="gen-btn modal-card-btn btn btn-primary text-capitalize fw-semibold"
                     data-bs-toggle="modal"
-                    data-bs-target="#photographyModal"
+                    data-bs-target="#hapiNalaModal"
                   >
                     Meet the real boss
                   </button>
@@ -208,7 +210,6 @@
 
         <!-- -------------- -->
         <!-- Carousel Modal -->
-
         <!-- Photography -->
         <div
           class="modal fade"
@@ -409,7 +410,403 @@
             </div>
           </div>
         </div>
+
+        <!-- Mechanical Engineering -->
+        <div
+          class="modal fade"
+          id="engineeringModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="engineeringModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="custom-modal-size modal-dialog modal-fullscreen-sm-down"
+            role="document"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title heading-tertiary"
+                  id="engineeringModalLabel"
+                >
+                  Photography
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div
+                  id="carouselEngineering"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselEngineering"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselEngineering"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselEngineering"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselEngineering"
+                      data-bs-slide-to="3"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselEngineering"
+                      data-bs-slide-to="4"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselEngineering"
+                      data-bs-slide-to="5"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div>
+                        <img
+                          src="/img/gallery/engineering/aab-projects/icd tower.webp"
+                          class="d-block w-100"
+                          alt="First slide - ICD Tower"
+                        />
+                      </div>
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Framed in Silence</h3>
+                        <p class="carousel-description">
+                          Rain on the windshield blurs the city beyond, while a
+                          quiet pair of glasses rests center frame—caught
+                          between clarity and contemplation.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/engineering/aab-projects/atlantis-dubai-the-royal.webp"
+                        class="d-block w-100"
+                        alt="Second slide - The Royal, Atlantis, Dubai"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Dorm Life in Color</h3>
+                        <p class="carousel-description">
+                          A modern student dorm in Aljada, Sharjah &ndash; lined
+                          with soft hues and symmetry, right outside my window.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/engineering/aab-projects/one-zaabeel-tower-nikken-sekkei_1.webp"
+                        class="d-block w-100"
+                        alt="Third slide - One Za'abeel Project"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Qasr Al Watan</h3>
+                        <p class="carousel-description">
+                          The Presidential Palace in Abu Dhabi &ndash; ornate
+                          domes, grand arches, and a courtyard that reflects the
+                          UAE’s cultural pride and architectural grace.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/engineering/bair-projects/bair.png"
+                        class="d-block w-100"
+                        alt="Fourth slide - BioAir Solutions Biotrickling Filter Design"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Skyline Majesty</h3>
+                        <p class="carousel-description">
+                          Dubai’s iconic skyline with the Burj Khalifa at its
+                          heart&ndash;framed by glass, steel, and a touch of
+                          green in a city that never stops reaching upward.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/engineering/bair-projects/bair1.webp"
+                        class="d-block w-100"
+                        alt="Fifth slide - BioAir Solutions Biotrickling Filter Site Project"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">
+                          Creative Mind in Motion”
+                        </h3>
+                        <p class="carousel-description">
+                          Russia’s Expo 2020 pavilion—vibrant, spherical, and
+                          dynamic&ndash;symbolizes movement, innovation, and the
+                          boundless energy of human thought.
+                        </p>
+                      </div> -->
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselEngineering"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselEngineering"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="gen-btn btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cats -->
+        <div
+          class="modal fade"
+          id="hapiNalaModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="hapiNalaModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="custom-modal-size modal-dialog modal-fullscreen-sm-down"
+            role="document"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title heading-tertiary"
+                  id="hapiNalaModalLabel"
+                >
+                  Photography
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div
+                  id="carouselHapiNala"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselHapiNala"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselHapiNala"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselHapiNala"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselHapiNala"
+                      data-bs-slide-to="3"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselHapiNala"
+                      data-bs-slide-to="4"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselHapiNala"
+                      data-bs-slide-to="5"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselHapiNala"
+                      data-bs-slide-to="6"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div>
+                        <img
+                          src="/img/gallery/cats/ket-1.webp"
+                          class="d-block w-100"
+                          alt="First slide - Hapi Picture"
+                        />
+                      </div>
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Framed in Silence</h3>
+                        <p class="carousel-description">
+                          Rain on the windshield blurs the city beyond, while a
+                          quiet pair of glasses rests center frame—caught
+                          between clarity and contemplation.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/cats/ket-2.webp"
+                        class="d-block w-100"
+                        alt="Second slide - Hapi and Nala Picture"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Dorm Life in Color</h3>
+                        <p class="carousel-description">
+                          A modern student dorm in Aljada, Sharjah &ndash; lined
+                          with soft hues and symmetry, right outside my window.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/cats/ket-3.webp"
+                        class="d-block w-100"
+                        alt="Third slide - Nala Picture"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Qasr Al Watan</h3>
+                        <p class="carousel-description">
+                          The Presidential Palace in Abu Dhabi &ndash; ornate
+                          domes, grand arches, and a courtyard that reflects the
+                          UAE’s cultural pride and architectural grace.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/cats/ket-4.webp"
+                        class="d-block w-100"
+                        alt="Fourth slide - Hapi and Nala Picture"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">Skyline Majesty</h3>
+                        <p class="carousel-description">
+                          Dubai’s iconic skyline with the Burj Khalifa at its
+                          heart&ndash;framed by glass, steel, and a touch of
+                          green in a city that never stops reaching upward.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/cats/ket-5.webp"
+                        class="d-block w-100"
+                        alt="Fifth slide - Hapi Picture"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">
+                          Creative Mind in Motion”
+                        </h3>
+                        <p class="carousel-description">
+                          Russia’s Expo 2020 pavilion—vibrant, spherical, and
+                          dynamic&ndash;symbolizes movement, innovation, and the
+                          boundless energy of human thought.
+                        </p>
+                      </div> -->
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/gallery/cats/ket-6.webp"
+                        class="d-block w-100"
+                        alt="Fifth slide - Hapi Picture"
+                      />
+                      <!-- <div class="carousel-caption d-none d-md-block">
+                        <h3 class="heading-tertiary">
+                          Creative Mind in Motion”
+                        </h3>
+                        <p class="carousel-description">
+                          Russia’s Expo 2020 pavilion—vibrant, spherical, and
+                          dynamic&ndash;symbolizes movement, innovation, and the
+                          boundless energy of human thought.
+                        </p>
+                      </div> -->
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselHapiNala"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselHapiNala"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="gen-btn btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
+     
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

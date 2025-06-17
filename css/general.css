@@ -51,7 +51,7 @@ body {
 }
 
 .carousel-item {
-  height: 100vh;
+  height: 100%;
 }
 
 .carousel-item img {
@@ -66,8 +66,12 @@ body {
 }
 
 .modal-dialog.custom-modal-size {
-  max-width: 90vw;
-  width: 80%;
-  height: auto;
+  max-width: 80dvh;
+  max-height: 80dvh;
   margin: 1rem auto;
+  overflow-y: visible;
+}
+
+.modal-body {
+  overflow-y: hidden;
 }
