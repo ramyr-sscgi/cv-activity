@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.6",
+    "bootstrap": "^5.3.7",
     "bootstrap-sass": "^3.4.3"
   },
   "name": "cv-activity",
@@ -9,7 +9,6 @@
   "main": "index.js",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
-    "bootstrap": "^5.3.6",
     "sass": "^1.62.0"
   },
   "scripts": {
