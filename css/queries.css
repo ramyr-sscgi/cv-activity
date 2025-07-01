@@ -1,10 +1,84 @@
-@media (max-width: 575.98px) {
-  .modal-dialog.custom-modal-size {
-    max-width: 100vw;
-    height: 100vh;
-    margin: 0;
+/***********************/
+/* BELOW 1104px */
+/***********************/
+@media (max-width: 69em) {
+  html {
+    font-size: 56.25%;
   }
-  .modal-content {
-    border-radius: 0;
+}
+/***********************/
+/* BELOW 992px */
+/***********************/
+@media (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+  .ramyr-img {
+    margin-bottom: 3rem;
+  }
+  .hero-description {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+/***********************/
+/* BELOW 768px */
+/***********************/
+@media (max-width: 48em) {
+  .hero-btn-cont {
+    margin: 0 auto;
+  }
+  .hero-btn-cont .btn-primary {
+    margin: 0.5rem 0;
+  }
+  .hero-subheading .replace-me {
+    margin-top: 0.5rem;
+    display: block;
+  }
+  .hero-btn-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 !important;
+  }
+  .about-section h2,
+  .misc-about-section h2 {
+    margin-bottom: 7rem !important;
+  }
+  #carouselProjectIndicator {
+    max-width: 75dvw;
+  }
+  .project-img {
+    height: 36rem !important;
+  }
+  .contact-me-margin {
+    gap: 10rem;
+  }
+  .contact-me-form {
+    max-width: 75vw !important;
+  }
+  .contact-me-img {
+    height: 48rem !important;
+  }
+}
+/***********************/
+/* BELOW 576px */
+/***********************/
+@media (max-width: 36em) {
+  .heading-secondary {
+    font-size: 4rem;
+  }
+  .about-section h2,
+  .project-section h2 {
+    text-align: center;
+  }
+  .project-section h2 {
+    margin-bottom: 0 !important;
+  }
+  .contact-me-form {
+    max-width: 90vw !important;
   }
 }
