@@ -31,3 +31,8 @@ const obs = new IntersectionObserver(
 );
 
 obs.observe(heroSectionEl);
+
+const yearEl = document.querySelector(".copyright-year");
+
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
