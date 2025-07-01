@@ -10,7 +10,7 @@ setTimeout(() => {
       autoRun: true,
     });
   }
-}, 3000);
+}, 1000);
 
 const heroSectionEl = document.querySelector(".hero-section");
 
