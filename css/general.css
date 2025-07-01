@@ -18,7 +18,32 @@ body {
 .gen-btn {
   border-radius: 0.7rem !important;
   padding: 1rem 2rem !important;
-  font-size: 2rem !important;
+  font-size: 1.6rem !important;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-tertiary {
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary {
+  color: #fff;
+}
+
+.btn-primary:hover {
+  color: #555 !important;
+}
+
+.btn-secondary {
+  background-color: transparent !important;
+  color: #555;
+}
+
+.btn-secondary:hover {
+  background-color: #a5a58d !important;
 }
 
 .gen-container {
